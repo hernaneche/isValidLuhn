@@ -18,6 +18,6 @@ function isValidLuhn(num) {
             return ((sum % 10) == 0);
 
         } catch (e) {
-            return false;//ante cualquier problema en la ejecución del algoritmo devuelve falso
+            return false;
         }
 }
